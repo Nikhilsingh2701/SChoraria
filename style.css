@@ -1,0 +1,257 @@
+*{
+    color: black;
+    font-family: 'Lato', sans-serif;  
+      font-weight: 100;
+    font-style: normal;
+}
+
+
+body{
+    background-color: #e5edef;
+    overflow-x: hidden;
+}
+#logo{
+    background-color: #F7F7F7;
+    width: 300px;
+    padding: 20px;
+    /* border-left: 40px; */
+    margin-left: 60px;
+    position: absolute;
+    z-index: 1;
+    
+
+}
+#sac{
+    color: #2e84e0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#ca{
+    margin: 0;
+    padding: 1px;
+    border: 0;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* General nav styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background:#62a7fb;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 15px 30px;
+    position: relative;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    font-weight: 300;
+    word-spacing: 0.5rem;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:white;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-weight: 400;
+    /* word-spacing: 0.5rem; */
+    letter-spacing: 0.05rem;
+
+}
+
+.nav-links a:hover {
+    background-color: #000000;
+    border-radius: 4px;
+    color: #ffffff;  /* default white */
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Dropdown menu */
+.nav-links li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.dropdown li {
+    width: 100%;
+}
+
+.dropdown a {
+    padding: 10px 15px;
+    color: #444;
+    white-space: nowrap;
+}
+.dropdown,
+.dropdown li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+                                    /* aboutus css */
+.divTitle{
+    padding: 0.8rem 12rem;
+    background-color: 	#3F5876
+}                                    
+.title{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.aboutUsDesc{
+    width: 100vw;
+    max-width: 75vw;
+    padding: 0rem 12rem;
+    font-size: 1rem;
+    font-weight: 100;
+    /* color: grey; */
+    line-height: 1.3;
+    word-spacing: 0.2rem;
+}
+                                     /* services css */
+
+.auditImg,.taxImg,.consultingImg{
+    height: 70vh;
+    width:70vw;
+    padding: 0 15vw;
+}
+.desc{
+    width: 100vw;
+    max-width: 70vw;
+    padding: 0 15vw;
+    font-size: 1.2rem;
+}
+.heading{
+    font-weight: 700;
+    color: #578FCA;
+    padding: 1.5rem 15rem;
+}
+hr{
+    height: 1px;
+  margin: 20px auto;
+  border: none;
+  background-color: #000000; /* or any subtle color */
+  width: 80%; /* optional: controls length */
+}
+
+
+/* contact form css */
+
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #0056b3;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .contact-form {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 60vw; /* Increased form width */
+    box-sizing: border-box;
+  }
+  .form{
+    display: flex;
+   justify-content: center;
+   align-content: center;
+  }
+  .contactImg{
+     height: 70vh;
+    width:70vw;
+    padding:  0 15vw;
+}
+  
